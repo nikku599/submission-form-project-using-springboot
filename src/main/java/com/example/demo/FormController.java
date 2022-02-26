@@ -13,6 +13,11 @@ public class FormController {
 		return "redirect:edureka";
 	}
 	
+	@PostMapping("/back")
+	public String backButton() {
+		return "redirect:edureka";
+	}
+	
 	@GetMapping("/edureka")
 	public String edureka() {
 		return "edureka";
