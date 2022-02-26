@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FormController {
 	@RequestMapping("/")
 	public String edureka() {
-		return "edureka.jsp";
+		return "edureka";
 	}
 }
