@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class FormController {
+	@GetMapping("/")
+	public String redirect() {
+		return "redirect:edureka";
+	}
+	
 	@GetMapping("/edureka")
 	public String edureka() {
 		return "edureka";

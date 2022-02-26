@@ -10,7 +10,7 @@
 
 <h1>View Customer Details</h1>
 <h2>Details are submitted as follows : </h2>
-<h4>Customer ID :  ${cname}</h4>
+<h4>Customer ID :  ${cid}</h4>
 <h4>Customer Name :  ${cname}</h4>
 <h4>Customer Email id : ${cemail}</h4>
 
